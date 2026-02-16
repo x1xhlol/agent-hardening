@@ -23,9 +23,9 @@ Raw URL for agents: `https://raw.githubusercontent.com/x1xhlol/agent-hardening/m
 
 ## What It Does
 
-- **Unicode Injection Tests** — Detects zero-width characters hiding instructions
-- **HTML Comment Detection** — Finds hidden directives in HTML comments
-- **Bidi Override Detection** — Catches bidirectional text spoofing
+- **Unicode Injection Tests** — Detects zero-width characters
+- **HTML Comment Detection** — Finds hidden directives
+- **Bidi Override Detection** — Catches text spoofing
 
 ## Threat Signatures
 
@@ -33,8 +33,4 @@ The `threats.json` file contains known attack patterns and compliance requiremen
 
 ## Author
 
-Built by [ZeroLeaks Security Research](https://zeroleaks.ai)
-
-## License
-
-MIT
+Built by [ZeroLeaks Security Research](https://zeroleaks.ai) | MIT License
